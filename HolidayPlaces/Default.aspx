@@ -1,11 +1,24 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="HolidayPlaces._Default" %>
+﻿<%@ Page Title="Packaged & Cheap Holiday Places for you" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="HolidayPlaces._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron">
-        <h1>ASP.NET</h1>
+    <!--<div class="jumbotron">
+        <h1>Plan Your Holiday</h1>
         <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
         <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    </div>
+    -->
+    <!-- The main booking search window -->
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">Let's plan your holiday</div>
+                <div class="panel-body">
+
+                </div>
+                <div class="panel-footer">footer</div>
+            </div>
+        </div>
     </div>
 
     <div class="row">
