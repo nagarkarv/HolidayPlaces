@@ -154,6 +154,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Deals.aspx" />
+    <Content Include="WeekendGateways.aspx" />
+    <Content Include="Hotels.aspx" />
+    <Content Include="FlightPlusHotels.aspx" />
+    <Content Include="Holidays.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
@@ -228,6 +233,41 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Deals.aspx.cs">
+      <DependentUpon>Deals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deals.aspx.designer.cs">
+      <DependentUpon>Deals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WeekendGateways.aspx.cs">
+      <DependentUpon>WeekendGateways.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WeekendGateways.aspx.designer.cs">
+      <DependentUpon>WeekendGateways.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hotels.aspx.cs">
+      <DependentUpon>Hotels.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hotels.aspx.designer.cs">
+      <DependentUpon>Hotels.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FlightPlusHotels.aspx.cs">
+      <DependentUpon>FlightPlusHotels.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FlightPlusHotels.aspx.designer.cs">
+      <DependentUpon>FlightPlusHotels.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Holidays.aspx.cs">
+      <DependentUpon>Holidays.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Holidays.aspx.designer.cs">
+      <DependentUpon>Holidays.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Account\AddPhoneNumber.aspx.cs">
       <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
