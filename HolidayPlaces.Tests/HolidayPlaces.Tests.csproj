@@ -69,7 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SauceLab_Test.cs" />
+    <Compile Include="TestHomePage.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HolidayPlaces\HolidayPlaces.csproj">
